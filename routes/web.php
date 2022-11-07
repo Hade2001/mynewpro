@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/user', function () {
     return view('welcome');
 });
+// تمت اضافة كلمة hadi على المشروع
 
 Route::get('/admin', function () {
     return ("hadi");
